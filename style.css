@@ -33,6 +33,7 @@ body {
 #modal {
     background: #fff;
     border-radius: 5px;
+    cursor: default;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,10 +60,10 @@ body {
 }
 
 #close-btn {
+    cursor: pointer;
     font-size: 3rem;
 }
 
 #close-btn:active {
     color: red;
-    cursor: pointer;
 }
